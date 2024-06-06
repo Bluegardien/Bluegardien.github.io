@@ -1,0 +1,20 @@
+main{
+    background-color: #C2B280;
+    color: #5C4033;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+main a{
+    color: #5C4033;
+}
+main h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#div2{
+    width: 70%;
+}
