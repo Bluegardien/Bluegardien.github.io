@@ -1,0 +1,256 @@
+/* ----------------------------Canard1-------------------------- */
+
+#section1 section {
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+}
+
+#canardsect1 {
+    width: 30%;
+}
+
+#canardsect1 .body {
+    position: relative;
+    top: -220px;
+    border-radius: 40px;
+    background-color: #ffcc00;
+    height: 400px;
+    width: 230px;
+}
+
+#canardsect1 .head {
+    z-index: 2;
+    position: relative;
+    top: -180px;
+    left: -10%;
+    border-radius: 40px;
+    background-color: #653a15;
+    height: 150px;
+    width: 200px;
+}
+
+#canardsect1 .eye {
+    position: relative;
+    z-index: 5;
+    border-radius: 20px;
+    background-color: #fefee2;
+    height: 40px;
+    width: 80px;
+    /*     animation-name: animationeyes;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; */
+}
+
+#canardsect1 .face {
+    top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    left: -15%;
+}
+
+#canardsect1 .beak {
+    position: relative;
+    top: 80px;
+    left: -80px;
+    border-radius: 30px;
+    background-color: none;
+    width: 200px;
+    height: 30px;
+}
+
+@keyframes animationeyes {
+    from {
+        top: 0;
+    }
+    to {
+        top: 15px;
+    }
+}
+
+
+/* ----------------------------Canard2-------------------------- */
+
+#canardsect2 {
+    width: 30%;
+    position: relative;
+    left: 70%;
+    top: -130px;
+}
+
+#canardsect2 .body {
+    position: relative;
+    top: -220px;
+    border-radius: 40px;
+    background-color: #ffcc00;
+    height: 150px;
+    width: 230px;
+}
+
+#canardsect2 .head {
+    z-index: 2;
+    position: relative;
+    left: -5%;
+    border-radius: 40px;
+    background-color: #653a15;
+    height: 150px;
+    width: 200px;
+}
+
+#canardsect2 .eye {
+    position: relative;
+    z-index: 5;
+    border-radius: 20px;
+    background-color: #fefee2;
+    height: 40px;
+    width: 80px;
+    animation-name: animationeyes;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#canardsect2 .face {
+    top: 60px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    left: -15%;
+}
+
+#canardsect2 .beak {
+    position: relative;
+    top: 80px;
+    left: -80px;
+    border-radius: 30px;
+    background-color: none;
+    width: 200px;
+    height: 30px;
+}
+
+
+/* ----------------------------Canard3-------------------------- */
+
+#canardsect3 {
+    width: 100%;
+    position: relative;
+    left: 30px
+}
+
+#canardsect3 .body {
+    position: relative;
+    top: -80px;
+    border-radius: 40px;
+    background-color: #ffcc00;
+    height: 200px;
+    width: 230px;
+}
+
+#canardsect3 .head {
+    z-index: 2;
+    position: relative;
+    left: -5%;
+    border-radius: 40px;
+    background-color: #653a15;
+    height: 150px;
+    width: 200px;
+}
+
+#canardsect3 .eye {
+    position: relative;
+    z-index: 5;
+    border-radius: 20px;
+    background-color: #fefee2;
+    height: 40px;
+    width: 80px;
+    animation-name: animationeyes;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#canardsect3 .face {
+    top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    left: 15%;
+}
+
+#canardsect3 .beak {
+    position: relative;
+    top: 80px;
+    left: -80px;
+    border-radius: 30px;
+    background-color: none;
+    width: 200px;
+    height: 30px;
+}
+
+/* ----------------------------Canard3-------------------------- */
+
+#canardsect4 {
+    width: 50%;
+    position: relative;
+    left: 100px
+}
+
+#canardsect4 .body {
+    position: relative;
+    top: -80px;
+    border-radius: 40px;
+    background-color: #ffcc00;
+    height: 200px;
+    width: 230px;
+}
+
+#canardsect4 .head {
+    z-index: 2;
+    position: relative;
+    left: 50px;
+    border-radius: 40px;
+    background-color: #653a15;
+    height: 150px;
+    width: 200px;
+}
+
+#canardsect4 .eye {
+    position: relative;
+    z-index: 5;
+    border-radius: 20px;
+    background-color: #fefee2;
+    height: 40px;
+    width: 80px;
+    animation-name: animationeyes;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#canardsect4 .face {
+    top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    left: 0px;
+}
+
+#canardsect4 .beak {
+    position: relative;
+    top: 80px;
+    left: -80px;
+    border-radius: 30px;
+    background-color: none;
+    width: 200px;
+    height: 30px;
+}
