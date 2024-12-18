@@ -1,0 +1,379 @@
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* width */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #ffcc00;
+    position: relative;
+    left: -5px;
+    border-radius: 6px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background-image: url("tete.png");
+    background-size: 20px;
+    position: relative;
+    left: -5px;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: #76481f;
+    margin: none;
+}
+
+main {
+    height: 97vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.mainsect {
+    scroll-snap-align: start;
+    height: 90vh;
+    padding: 20px;
+}
+
+
+/* =============================SECTION1========================= */
+
+
+/* ----------------------------Navbar Top------------------------ */
+
+#section1 {
+    padding: 40px;
+}
+
+#section1 .navbartop {
+    background-color: #653a15;
+    width: 50%;
+    height: 40%;
+    border-radius: 40px;
+    margin-left: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#section1 .navbartop div {
+    padding-top: 10px;
+    margin-left: 7%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1 .navbartop div p {
+    padding: 20px;
+    background-color: #fefee2;
+    border-radius: 20px;
+}
+
+#section1 .navbartop h1:nth-child(2) {
+    font-size: 60px;
+    text-wrap: nowrap;
+    color: #be7e45;
+    position: relative;
+    left: 5%;
+    margin: 0;
+}
+
+#section1 .navbartop h1:nth-child(3) {
+    font-size: 70px;
+    color: #ffcc00;
+    position: relative;
+    left: 5%;
+    margin: 0;
+}
+
+
+/* ----------------------------Bulles------------------------ */
+
+#section1 section {
+    width: 100%;
+    height: 60%;
+}
+
+#bulles {
+    margin-left: 20%;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#section1 #bulles div {
+    color: #fefee2;
+    font-size: 20px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #be7e45;
+    transition: ease-in-out 0.2s;
+}
+#section1 #bulles div h2{
+    color: #ffcc00;
+    font-size: 30px;
+}
+
+#section1 #bulles div:nth-child(1) {
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+}
+
+#section1 #bulles div:nth-child(1):hover {
+    width: 385px;
+    height: 275px;
+}
+
+#section1 #bulles div:nth-child(2) {
+    position: relative;
+    top: 30%;
+    width: 100px;
+    height: 70px;
+}
+
+#section1 #bulles div:nth-child(2):hover {
+    width: 110px;
+    height: 77px;
+}
+
+#section1 #bulles div:nth-child(3) {
+    position: relative;
+    top: 10%;
+    width: 70px;
+    height: 50px;
+}
+
+#section1 #bulles div:nth-child(3):hover {
+    width: 77px;
+    height: 55px;
+}
+
+
+/* =============================SECTION2========================= */
+
+
+/* ----------------------------Navbar------------------------ */
+
+#section2 {
+    padding-top: 40px;
+}
+
+#section2 section {
+    height: 50%;
+}
+
+#section2 .navbartop {
+    margin-left: 5%;
+    padding: 15px;
+    background-color: #653a15;
+    width: 30%;
+    height: 180px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#section2 .navbartop h1:nth-child(1) {
+    font-size: 60px;
+    color: #be7e45;
+    margin-left: 5%;
+    margin: 0;
+}
+
+#section2 .navbartop h1:nth-child(2) {
+    font-size: 70px;
+    color: #ffcc00;
+    margin-left: 5%;
+    margin: 0;
+}
+
+#section2>div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section2 .exp {
+    background-color: #be7e45;
+    text-align: center;
+    color: #fefee2;
+    border-radius: 30px;
+    width: 30%;
+    height: 300px;
+}
+#section2 .exp h2{
+    color: #ffcc00;
+    font-size: 40px;
+}
+
+
+/* =============================SECTION3========================= */
+
+
+/* ----------------------------Projets------------------------ */
+
+#sectproj {
+    width: 65%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 30px 0;
+}
+
+#sectproj > div {
+    width: 90%;
+    height: 20%;
+    margin-left: 7%;
+    margin: 30px;
+    border-radius: 30px;
+    background-color: #be7e45;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: height 0.1s ease-in-out;
+}
+
+#sectproj div h1 {
+    font-size: 40px;
+    color: #ffcc00;
+    margin-left: 5%;
+    margin: 0;
+}
+
+#sectproj div p {
+    color: #fefee2;
+    margin-left: 5%;
+    margin: 0;
+}
+
+#section3 {
+    display: flex;
+}
+
+#section3 section:nth-child(2) {
+    width: 35%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#section3 .Depliant{
+    position: relative;
+    opacity: 0%;
+    width: 100%;
+    padding: 5px;
+    transition: opacity 0.3s ease-in-out;
+}
+#section3 #sectproj > div:hover{
+    height: 40%;
+}
+#section3 #sectproj > div:hover > .Depliant{
+    opacity: 100%;
+}
+.Depliant ul{
+    color: #fefee2;
+}
+
+
+/* ----------------------------Navbar------------------------ */
+
+#section3 .navbartop {
+    margin-left: 5%;
+    padding: 15px;
+    background-color: #653a15;
+    width: 300px;
+    height: 150px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#section3 .navbartop h1:nth-child(1) {
+    font-size: 60px;
+    text-wrap: nowrap;
+    color: #be7e45;
+    margin: 0;
+}
+
+#section3 .navbartop h1:nth-child(2) {
+    font-size: 70px;
+    color: #ffcc00;
+    margin: 0;
+}
+
+#ciel {
+    position: relative;
+    left: 100px;
+    width: 200px;
+}
+
+
+/* =============================SECTION4========================= */
+
+#section4{
+    height: 100vm;
+}
+#section4 .navbartop {
+    margin-left: 5%;
+    padding: 15px;
+    background-color: #653a15;
+    width: 300px;
+    height: 180px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#section4 .navbartop h1:nth-child(1) {
+    font-size: 60px;
+    color: #be7e45;
+    margin-left: 5%;
+    margin: 0;
+}
+
+#section4 .navbartop h1:nth-child(2) {
+    font-size: 70px;
+    color: #ffcc00;
+    margin-left: 5%;
+    margin: 0;
+}
+
+#section4{
+    display: flex;
+}
+#section4 #left4{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#section4 #right4{
+    height: 100%;
+    width: 60%;
+}
+#section4 #right4 #contact div{
+    background-color: #be7e45;
+    border-radius: 20px;
+    color: #fefee2;
+    padding: 30px;
+    margin: 20px;
+}
+#section4 a{
+    text-decoration: underline;
+    color:#fefee2;
+}
